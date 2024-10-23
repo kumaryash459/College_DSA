@@ -71,8 +71,8 @@ void display()
     else
     {
         printf(" nElements in the stack are \n");
-        {
-            for (i = 0; i <= top; i++)
+        
+            for (i = 0; i <= top; i++){
                 printf("%d\n", Stack[i]);
         }
     }
