@@ -20,11 +20,11 @@ void push()
     int ele;
     if (top < MAX - 1)
     {
-    }
-    else
-        printf("Enter the value to be inserted into the stack :");
+    printf("Enter the value to be inserted into the stack :");
     scanf("%d", &ele);
     Stack[++top] = ele;
+    }
+    else
     printf("Stack is Full"); // overflow condition
 }
 void pop()
