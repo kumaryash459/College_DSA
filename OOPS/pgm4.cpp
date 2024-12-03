@@ -46,10 +46,10 @@ int main()
     cin>>emp.balance;
     emp.Display();
     double deposit_amount, withdrw_amount;
-    cout<<"Enter amount to deposit: "<<endl;
+    cout<<"\nEnter amount to deposit: "<<endl;
     cin>>deposit_amount;
     emp.deposit(deposit_amount);
-    cout<<"Enter the amount to deposit: "<<endl;
+    cout<<"Enter the amount to withdraw: "<<endl;
     cin>>withdrw_amount;
     emp.withdrawl(withdrw_amount);
 }

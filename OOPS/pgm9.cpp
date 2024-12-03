@@ -1,3 +1,5 @@
+// develop a cpp program to create a text file , check file created or not , if created it will write some text int the file adn then read the text from the file
+
 #include <iostream>
 #include <conio.h>
 #include <fstream>
