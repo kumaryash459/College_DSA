@@ -12,7 +12,7 @@ void bfs(int n, int a[10][10], int source, int s[]) // BFS Algorithm
     s[source] = 1;
     q[rear] = source;
     while (front <= rear)
-    {
+    {    
         u = q[front];
         front = front + 1;
         for (i = 1; i <= n; i++)
